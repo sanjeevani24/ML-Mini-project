@@ -1,13 +1,13 @@
-"""
+
 Optimized Chronic Kidney Disease (CKD) Prediction using Stacking Ensemble
 This repository contains the implementation of a specialized machine learning pipeline (kidney_disease_optimizer.py) focused on achieving the highest possible classification accuracy for the Chronic Kidney Disease (CKD) dataset.
 
 The core approach involves advanced data preprocessing, aggressive hyperparameter tuning of high-performance models, and a final Stacking Ensemble to maximize predictive power.
 
-🎯 Project Goal
+Project Goal:
 To build a predictive model that surpasses the accuracy benchmarks established by traditional and research-level machine learning approaches for CKD diagnosis, particularly by leveraging model diversity and optimization.
 
-🔬 Methodology: Optimization Pipeline
+Methodology: Optimization Pipeline
 The high accuracy of this approach is attributed to a combination of advanced techniques across the entire machine learning workflow:
 
 1. Advanced Data Preprocessing
@@ -35,7 +35,7 @@ Meta-Classifier: Logistic Regression.
 
 Validation: All optimization and final evaluation steps use 5-fold Stratified Cross-Validation to ensure robust and unbiased accuracy reporting.
 
-📈 Key Improvements over Research Paper Baseline
+Key Improvements over Research Paper Baseline:
 Compared to standard research approaches (e.g., Cost-Sensitive AdaBoost with Mean Imputation and Information Gain Feature Selection), this pipeline achieves higher accuracy through:
 
 Superior Imputation: KNN Imputation provides higher data quality than Mean Imputation.
@@ -44,4 +44,4 @@ Modern Boosted Models: Utilizing XGBoost and LightGBM as base learners, which ar
 
 Rigorously Optimized Parameters: The extensive tuning process ensures each model is operating at its maximum performance threshold.
 
-Powerful Ensemble: Stacking optimally combines the strengths of diverse models, leading to a performance ceiling often higher than any single individual model. """
+Powerful Ensemble: Stacking optimally combines the strengths of diverse models, leading to a performance ceiling often higher than any single individual model. 
